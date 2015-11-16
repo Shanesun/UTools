@@ -36,5 +36,25 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string></string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>zip</string>
+				<string>doc</string>
+				<string>docx</string>
+			</array>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.pkware.zip-archive</string>
+				<string>com.microsoft.word.doc</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
