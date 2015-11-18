@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					DF3E3D2D1BFA1BCE000A2E25 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2PQ752GS95;
 					};
 					DF3E3D421BFA1BCE000A2E25 = {
 						CreatedOnToolsVersion = 6.4;
@@ -340,7 +341,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wei wang (4J9XM4LAMT)";
 				INFOPLIST_FILE = UTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,7 +353,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wei wang (4J9XM4LAMT)";
 				INFOPLIST_FILE = UTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

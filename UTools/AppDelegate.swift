@@ -44,12 +44,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // 接收 文件
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
         
-        var alertView : UIAlertView?
-        alertView 
+        UIAlertView(title: "InputFile", message: url.absoluteString, delegate: nil, cancelButtonTitle: "取消").show()
+        
+        
+        
+
+        fileManager.createFileAtPath(<#path: String#>, contents: <#NSData?#>, attributes: <#[NSObject : AnyObject]?#>)
         
         return true;
     }
 
+    func createFilesDir{
+        var desPathStr:NSString = NSSearchPathForDirectoriesInDomains(DocumentationDirectory, NSSearchPathDomainMask, true)
+        
+        var fileManager:NSFileManager = NSFileManager.defaultManager()
+        if fileManager.fileExistsAtPath(<#path: String#>)
+    }
 
 }
 

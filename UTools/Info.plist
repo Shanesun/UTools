@@ -4,10 +4,30 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>zip</string>
+				<string>doc</string>
+				<string>docx</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string></string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.pkware.zip-archive</string>
+				<string>com.microsoft.word.doc</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>Shanesun.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>com.meet.mery</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -35,26 +55,6 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>CFBundleDocumentTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeName</key>
-			<string></string>
-			<key>LSHandlerRank</key>
-			<string>Default</string>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>zip</string>
-				<string>doc</string>
-				<string>docx</string>
-			</array>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>com.pkware.zip-archive</string>
-				<string>com.microsoft.word.doc</string>
-			</array>
-		</dict>
 	</array>
 </dict>
 </plist>
